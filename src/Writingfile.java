@@ -10,7 +10,7 @@ public class Writingfile {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-
+//
 		File file=new File("D:/udemy prac/filewriting/textfilewritingraman.csv");
 		
 		FileWriter fw =new FileWriter(file,false);
