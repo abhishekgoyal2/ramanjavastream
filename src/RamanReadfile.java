@@ -11,8 +11,9 @@ public class RamanReadfile {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 //Connecting stream
-		File file=new File("D:\\udemy prac\\filewriting\\textfilereadingraman.txt");
-
+		
+		File file=new File("D:\\udemy prac\\filewriting\\textfilereadingraman.xlsx");
+		file.createNewFile();
 
 		FileReader fr =new FileReader(file);
 		BufferedReader reader=new BufferedReader(fr);
