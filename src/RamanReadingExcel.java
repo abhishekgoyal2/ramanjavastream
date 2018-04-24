@@ -23,12 +23,9 @@ public class RamanReadingExcel {
 		File file =new File("D:\\automationXpath\\Excel_CQRoll_xpath.xlsx");
 		FileInputStream fi= new FileInputStream(file);
 	XSSFWorkbook wb= new XSSFWorkbook(fi);
-//Workbook wb =new Workbook(fi);
+
 	XSSFSheet sheet0 =wb.getSheetAt(0);
-//	Row row0 =sheet0.getRow(0);
-//	Cell cellA =row0.getCell(0);
-//	System.out.println(cellA);
-	
+
 	for (Row row:sheet0)
 	{
 		for (Cell cell:row)
