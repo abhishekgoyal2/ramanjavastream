@@ -14,7 +14,7 @@ public class Writingfile {
 		File file=new File("D:/udemy prac/filewriting/textfilewritingraman.html");
 		
 		FileWriter fw =new FileWriter(file,true);
-		BufferedWriter bufferedwriter=new BufferedWriter(fw);
+		BufferedWriter writer=new BufferedWriter(fw);
 		
 //		for (int i=0;i<4;i++)
 //			
@@ -27,7 +27,7 @@ public class Writingfile {
 //			bufferedwriter.newLine();
 //		}
 		
-		bufferedwriter.write("<html><body><title>Way2automation</title><h1>Learning Selenium and java from way2autoamtion.com</h1></boyd></html>");
+		writer.write("<html><body><title>Way2automation</title><h1>Learning Selenium and java from way2autoamtion.com</h1></boyd></html>");
 		
 //		bufferedwriter.newLine();
 //		bufferedwriter.write("First line");
@@ -38,7 +38,7 @@ public class Writingfile {
 //		bufferedwriter.write("Automation");
 //		bufferedwriter.newLine();
 //		bufferedwriter.write("Selenium");
-		bufferedwriter.close();
+		writer.close();
 		
 	}
 
